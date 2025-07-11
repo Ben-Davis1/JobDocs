@@ -1,4 +1,4 @@
-const Header = () => {
+const Header = ({ onGetStarted }) => {
   return (
     <header className="fixed top-0 w-full bg-warm-50/95 backdrop-blur-sm z-50 border-b border-warm-100">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -37,7 +37,10 @@ const Header = () => {
           </nav>
           
           {/* CTA button */}
-          <button className="bg-primary-600 text-white px-5 py-2.5 rounded-full hover:bg-primary-700 transition-all hover:shadow-lg font-medium">
+          <button 
+            onClick={onGetStarted}
+            className="bg-primary-600 text-white px-5 py-2.5 rounded-full hover:bg-primary-700 transition-all hover:shadow-lg font-medium"
+          >
             Get Early Access
           </button>
         </div>

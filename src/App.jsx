@@ -15,7 +15,7 @@ function App() {
   return (
     <div className="min-h-screen bg-white">
       {/* Header navigation */}
-      <Header />
+      <Header onGetStarted={() => setIsModalOpen(true)} />
       
       {/* Hero section with main value proposition */}
       <Hero onGetStarted={() => setIsModalOpen(true)} />
