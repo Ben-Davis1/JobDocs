@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" fill="none">
+  <!-- Background -->
+  <rect width="1200" height="630" fill="#f6f9f4"/>
+  
+  <!-- Background pattern -->
+  <defs>
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M 40 0 L 0 0 0 40" fill="none" stroke="#e8f0e3" stroke-width="1"/>
+    </pattern>
+  </defs>
+  <rect width="1200" height="630" fill="url(#grid)"/>
+  
+  <!-- Main content area -->
+  <rect x="100" y="100" width="1000" height="430" rx="20" fill="white" stroke="#d1e0c7" stroke-width="2"/>
+  
+  <!-- Logo area -->
+  <g transform="translate(150, 150)">
+    <!-- Invoice icon -->
+    <rect x="0" y="0" width="80" height="100" rx="8" fill="#6b8e4e"/>
+    <g transform="translate(15, 10)">
+      <rect x="0" y="0" width="50" height="80" rx="4" fill="white"/>
+      <rect x="0" y="0" width="50" height="15" rx="4" fill="#445930"/>
+      <rect x="5" y="20" width="25" height="4" rx="1" fill="#afc89f"/>
+      <rect x="5" y="28" width="40" height="4" rx="1" fill="#d1e0c7"/>
+      <rect x="5" y="36" width="18" height="4" rx="1" fill="#afc89f"/>
+      <rect x="27" y="36" width="13" height="4" rx="1" fill="#afc89f"/>
+      <rect x="5" y="55" width="15" height="4" rx="1" fill="#557038"/>
+      <rect x="25" y="55" width="15" height="4" rx="1" fill="#557038"/>
+    </g>
+    
+    <!-- JobDocs text -->
+    <text x="100" y="65" font-family="Inter, sans-serif" font-size="48" font-weight="bold" fill="#2f3d24">JobDocs</text>
+  </g>
+  
+  <!-- Main headline -->
+  <text x="600" y="320" font-family="Inter, sans-serif" font-size="64" font-weight="bold" fill="#2f3d24" text-anchor="middle">Professional Quotes &amp; Invoices</text>
+  <text x="600" y="380" font-family="Inter, sans-serif" font-size="48" font-weight="600" fill="#6b8e4e" text-anchor="middle">in Seconds</text>
+  
+  <!-- Subtitle -->
+  <text x="600" y="440" font-family="Inter, sans-serif" font-size="24" fill="#557038" text-anchor="middle">AI-powered invoicing for UK sole traders and small businesses</text>
+  
+  <!-- CTA -->
+  <rect x="450" y="480" width="300" height="60" rx="30" fill="#6b8e4e"/>
+  <text x="600" y="520" font-family="Inter, sans-serif" font-size="24" font-weight="600" fill="white" text-anchor="middle">Get Early Access</text>
+</svg>
