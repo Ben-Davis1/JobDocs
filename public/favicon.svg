@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" fill="none">
+  <!-- Background -->
+  <rect width="32" height="32" rx="8" fill="#6b8e4e"/>
+  
+  <!-- Invoice document (simplified) -->
+  <g transform="translate(6, 4)">
+    <!-- Document -->
+    <rect x="0" y="0" width="20" height="24" rx="2" fill="white"/>
+    
+    <!-- Header -->
+    <rect x="0" y="0" width="20" height="5" rx="2" fill="#445930"/>
+    
+    <!-- Content lines -->
+    <rect x="2" y="7" width="10" height="1.5" rx="0.5" fill="#afc89f"/>
+    <rect x="2" y="10" width="16" height="1.5" rx="0.5" fill="#d1e0c7"/>
+    
+    <rect x="2" y="13" width="7" height="1.5" rx="0.5" fill="#afc89f"/>
+    <rect x="11" y="13" width="5" height="1.5" rx="0.5" fill="#afc89f"/>
+    
+    <rect x="2" y="16" width="7" height="1.5" rx="0.5" fill="#afc89f"/>
+    <rect x="11" y="16" width="5" height="1.5" rx="0.5" fill="#afc89f"/>
+    
+    <!-- Total -->
+    <rect x="2" y="19" width="16" height="0.5" fill="#d1e0c7"/>
+    <rect x="2" y="21" width="6" height="1.5" rx="0.5" fill="#557038"/>
+    <rect x="10" y="21" width="6" height="1.5" rx="0.5" fill="#557038"/>
+  </g>
+</svg>
